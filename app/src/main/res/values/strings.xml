@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gestor de Diseño</string>
+    <string name="galeria">Galeria</string>
+    <string name="nombre">Escribe tu nombre de usuario</string>
+    <string name="pass">Escribe tu contraseña</string>
+    <string name="boton_olvide">OLVIDÉ MIS DATOS</string>
+    <string name="boton_iniciar">INICIAR SESIÓN</string>
+    <string name="boton_notificacion">NOTIFICACION</string>
+    <string name="boton_notificacion2">NOTIFICACION 2</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="texto_widget">Hola estuidantest</string>
+    <string name="texto_1">Gestor de Diseños</string>
+    <string name="texto_2">Nombre de Usuario</string>
+
+</resources>

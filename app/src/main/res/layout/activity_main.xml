@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="com.example.miguelforero.arquitectura.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/ic_account_circle_black_24dp"
+        android:tint="@color/colorVerde"
+
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:hint="@string/nombre"
+        android:inputType="text"  />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        android:layout_below="@id/nombre"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:onClick="notificar"
+        android:text="@string/boton_olvide" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_toEndOf="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:onClick="entrar"
+        android:text="@string/boton_iniciar" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:onClick="notificacion"
+        android:text="@string/boton_notificacion" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:onClick="notificacion2"
+        android:text="@string/boton_notificacion2" />
+</RelativeLayout>

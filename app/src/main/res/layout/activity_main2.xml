@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miguelforero.arquitectura.Main2Activity"
+    android:useDefaultMargins="true"
+    android:columnCount="2">
+
+    <ImageView
+        android:src="@drawable/carro1"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/carro2"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/carro3"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/carro4"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/carro5"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+    <ImageView
+        android:src="@drawable/carro6"
+        android:layout_width="@dimen/imagen_width"
+        android:layout_height="@dimen/imagen_height"
+        android:scaleType="centerCrop"
+        />
+</GridLayout>
